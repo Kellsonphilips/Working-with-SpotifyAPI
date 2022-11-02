@@ -22,7 +22,11 @@ Follow these steps to set up the python script with your spotify account.
 <br>
 
 ## Demo
-/Users/apple/Desktop/Screen Recording 2022-10-31 at 21.50.48.mov
+
+
+https://user-images.githubusercontent.com/81332784/199428965-1847cfcd-dfff-4ba3-890a-0d88d5e77ccf.mov
+
+
 
 ## 🧑 Follow these guide
 
@@ -78,26 +82,27 @@ Let's set up your spotify so the script can work 💪
 1. Firstly
  * Visit [Spotify](https://open.spotify.com) and login into your account.
  * Visit [Spotify for Developers](https://developer.spotify.com/) navigate to the Dashboard
-![Screenshot 2022-10-31 at 17.37.22.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 17.37.22.png)
+![Screenshot 2022-10-31 at 17 37 22](https://user-images.githubusercontent.com/81332784/199429172-028df73c-45bb-4e1a-9851-9c72f3105463.png)
 
  * Like the image above, login with your spotify account.
 2. Secondly
   * Click on Create An App to create an app for what you are building
   * Give your App a name and the description
   * Example below 👇
-![Screenshot 2022-10-31 at 17.46.30.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 17.46.30.png)
+![Screenshot 2022-10-31 at 17 46 30](https://user-images.githubusercontent.com/81332784/199429439-188c5450-3851-4673-85f5-98e002fe24d3.png)
 3. Thirdly
   * Copy the CLIENT ID and the CLIENT SECRET
   * Using the `env_template` provided for you in this project 
   * Create a `.env file` , copy all in the `env_template` and paste it in your created `.env file` then paste your `CLIENT ID and CLIET SECRET` respectively in the rightful place in your `.env file`.
-![Screenshot 2022-10-31 at 17.50.15.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 17.50.15.png)
+![Screenshot 2022-10-31 at 17 50 15](https://user-images.githubusercontent.com/81332784/199429913-6a9d1555-1770-433f-bb94-72cb79dfc086.png)
   * Click on the Edit Settings
 4. Fourth
   ```bash
   http://localhost:8080/callback/
   ```
   * Copy the link above and past it in the Redirect URIs exactly like the image below 👇
-![Screenshot 2022-10-31 at 17.53.12.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 17.53.12.png)
+![Screenshot 2022-10-31 at 17 53 12](https://user-images.githubusercontent.com/81332784/199430069-a3022c7d-8fae-45e8-a7a3-d67bf448a4fe.png)
+
   * And Save
 We are done with the spotify developer App
 
@@ -124,26 +129,27 @@ After all the above the steps are completed.
 Run the `main.py` file
 
 If everything is fine, you will be prompted to input the date you want to check the top 100 songs on that date.
+
 Date format:
 ```bash
 YYYY-MM-DD
 ```
 Example below:
+![Screenshot 2022-10-31 at 17 26 17](https://user-images.githubusercontent.com/81332784/199430202-a141a0b7-9861-4707-b6d8-eacc1224c626.png)
 
-![Screenshot 2022-10-31 at 17.26.17.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 17.26.17.png)
 
 If a song is not found in Spotify , the name of the song will be logged in the console like above.
 Check your Spotify and you will find your playlist created and top100 songs added in the playlist.
 Like below:
+![Screenshot 2022-10-31 at 17 28 54](https://user-images.githubusercontent.com/81332784/199430269-cc3620b7-4586-4f86-bd55-0b4a0ad9b995.png)
 
-![Screenshot 2022-10-31 at 17.28.54.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 17.28.54.png)
 
 The songs are 99 because 1 song wasn't found in Spotify.
 
 Also if you try same date without Renaming the previous playlist with same Date, you can't have multiple playlists with the same name and same songs.
 You will be notified in console like below:
+![Screenshot 2022-10-31 at 21 42 29](https://user-images.githubusercontent.com/81332784/199430356-b86cc6fb-b23f-497d-8104-765d0c7fc586.png)
 
-![Screenshot 2022-10-31 at 21.42.29.png](/Users/apple/Desktop/Screenshot 2022-10-31 at 21.42.29.png)
 
 
 
